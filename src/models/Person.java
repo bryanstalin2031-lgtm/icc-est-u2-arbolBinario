@@ -30,7 +30,11 @@ public class Person implements Comparable <Person> {
 
     @Override
     public int compareTo(Person otra) {
-        return Integer.compare(this.age, otra.getAge());
+        int compAge = Integer.compare(this.age, otra.getAge());
+        if(compAge != 0) {
+            return compAge;
+        }
+        return this.name.compareTo(otra.getName());
     }
 
     

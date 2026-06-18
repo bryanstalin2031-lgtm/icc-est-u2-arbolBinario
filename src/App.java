@@ -9,10 +9,10 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         //runIntTree();
-        runPesonTree();
+        runPersonTree();
     }
 
-    private static void runPesonTree() {
+    private static void runPersonTree() {
         BinaryTree<Person> personTree = new BinaryTree<>();
         personTree.insert(new Person("Alice", 30));
         personTree.insert(new Person("Bob", 25));

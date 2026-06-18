@@ -145,6 +145,7 @@ public class BinaryTree <T extends Comparable<T>> {
 
 
     
+    
     private int pesoRecursivo(Node<T> actual) {
         if (actual == null) {
             return 0; 
@@ -153,6 +154,6 @@ public class BinaryTree <T extends Comparable<T>> {
         int pesoDerecha = pesoRecursivo(actual.getRight());
        
         return pesoIzquierda + pesoDerecha + 1;
-    }        
+    }         
     
 }
