@@ -3,13 +3,29 @@ import java.util.Random;
 import models.Person;
 import structures.node.Node;
 import structures.trees.BinaryTree;
+import structures.trees.Ejercicio1;
+import structures.trees.Ejercicio2;
 import structures.trees.IntTree;
 
 public class App {
     public static void main(String[] args) throws Exception {
 
         //runIntTree();
-        runPersonTree();
+        //runPersonTree();
+        //runEjercicios();
+        runEjercicios2();
+
+    }
+
+    // private static void runEjercicios() {
+    //     Ejercicio1 ejercicio1 = new Ejercicio1();
+    //     int[] numeros = new int[]{5,3,7,2,4,6,8};
+    //     ejercicio1.insert(numeros);
+    // }
+    private static void runEjercicios2() {
+        Ejercicio2 ejercicio2 = new Ejercicio2();
+        int[] numeros = new int[]{4,7,2,9,6,3,1};
+        ejercicio2.insert(numeros);
     }
 
     private static void runPersonTree() {
