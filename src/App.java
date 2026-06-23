@@ -17,11 +17,11 @@ public class App {
 
     }
 
-    // private static void runEjercicios() {
-    //     Ejercicio1 ejercicio1 = new Ejercicio1();
-    //     int[] numeros = new int[]{5,3,7,2,4,6,8};
-    //     ejercicio1.insert(numeros);
-    // }
+    private static void runEjercicios() {
+        Ejercicio1 ejercicio1 = new Ejercicio1();
+        int[] numeros = new int[]{5,3,7,2,4,6,8};
+        ejercicio1.insert(numeros);
+    }
     private static void runEjercicios2() {
         Ejercicio2 ejercicio2 = new Ejercicio2();
         int[] numeros = new int[]{4,7,2,9,6,3,1};
