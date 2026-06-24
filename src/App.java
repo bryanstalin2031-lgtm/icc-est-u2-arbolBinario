@@ -5,6 +5,8 @@ import structures.node.Node;
 import structures.trees.BinaryTree;
 import structures.trees.Ejercicio1;
 import structures.trees.Ejercicio2;
+import structures.trees.Ejercicio3;
+import structures.trees.Ejercicio4;
 import structures.trees.IntTree;
 
 public class App {
@@ -13,8 +15,22 @@ public class App {
         //runIntTree();
         //runPersonTree();
         //runEjercicios();
-        runEjercicios2();
+        //runEjercicios2();
+        //runEjercicios3();
+        runEjercicios4();
 
+    }
+
+    private static void runEjercicios4() {
+        Ejercicio4 ejercicio4 = new Ejercicio4();
+        int[] numeros = new int[]{4,7,2,9,6,3,1};
+        ejercicio4.insert(numeros);
+    }
+
+    private static void runEjercicios3() {
+        Ejercicio3 ejercicio3 = new Ejercicio3();
+        int[] numeros = new int[]{4,7,2,9,6,3,1};
+        ejercicio3.insert(numeros);
     }
 
     private static void runEjercicios() {

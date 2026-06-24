@@ -14,3 +14,12 @@ Aqui implementamos de nuevo el metodo insertar que usamos en el Ejercicio 1 util
 Creamos el metodo `inverTree` en donde llamamos el segundo metodo `invertRecursively` en dode solo retornaremos la raiz. En el metodo `invertRecursively` igual iniciamos con el caso base y despues pasamos a crear la variable aux en donde primero guardaremos el valor del subarbolizquierdo y el valor del subarbolderecho lo pondremos en el espacio que quedo a la izquierda y en el subarbol derecho pondremos el valor previamente guardado en el aux y finalmente haremos las llamadas recursivas correspondientes
 ## Salida en cosola
 ![alt text](assets/CapSalidaEnCosolaEjer2.png)
+## **Ejercicio 3**
+![alt text](assets/CapListLevels.png)
+Para poder realizar el metodo `listLevels` creamos una lista de tipo `ArrayList` donde como primero empezamos por el caso base despues creamos una cola con `LinkedList` donde usamos un bucle con condiciones para poder ir agregando los valores a mi lista y al final retornaremos los valores en si.
+## Salida en cosola
+![alt text](assets/CapSalidaConsolaEjer3.png)
+## **Ejercicio 4**
+![alt text](assets/CapMaxDepth.png)
+En el metodo `maxDepth` como en todos lo metodos previos empezamos con el caso base y despues creamos variables de tipo int para guardar los valores de la izquierda y derecha. Depues usamos `Math.max` con las variables que creamos anteriormente y le sumamos 1 y asi abtenemos la altura
+## Salida en cosola
