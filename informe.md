@@ -21,5 +21,6 @@ Para poder realizar el metodo `listLevels` creamos una lista de tipo `ArrayList`
 ![alt text](assets/CapSalidaConsolaEjer3.png)
 ## **Ejercicio 4**
 ![alt text](assets/CapMaxDepth.png)
-En el metodo `maxDepth` como en todos lo metodos previos empezamos con el caso base y despues creamos variables de tipo int para guardar los valores de la izquierda y derecha. Depues usamos `Math.max` con las variables que creamos anteriormente y le sumamos 1 y asi abtenemos la altura
+En el metodo `maxDepth` como en todos lo metodos previos empezamos con el caso base y despues creamos variables de tipo int para guardar los valores de la izquierda y derecha. Depues usamos `Math.max` con las variables que creamos anteriormente y le sumamos 1 y asi obtenemos la profundidad.
 ## Salida en cosola
+![alt text](assets/CapSalidaEnConsolaEjer4.png)
