@@ -5,6 +5,7 @@ import collections.maps.Maps;
 import collections.set.Sets;
 import models.Contacto;
 import models.Person;
+import structures.graphs.Graph;
 import structures.node.Node;
 import structures.trees.BinaryTree;
 import structures.trees.Ejercicio1;
@@ -23,8 +24,28 @@ public class App {
         //runEjercicios3();
         //runEjercicios4();
         //runSets();
-        runMaps();
+        //runMaps();
+        runGraphs();
+    }
 
+    private static void runGraphs() {
+        Graph<String> graph = new Graph<>();
+        graph.add("A");
+        graph.add("B");
+        graph.add("C");
+        graph.add("D");
+        graph.add("J");
+        
+        graph.addEdge("D", "J");
+        graph.addEdge("D", "C");
+        graph.addEdgeUni("A", "B");
+        graph.addEdgeUni("B", "C");
+        graph.addEdgeUni("B", "D");
+        graph.addEdgeUni("C", "A");
+
+        graph.printGraph();
+
+        
     }
 
     // private static void runMaps() {
